@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    object-fit: cover;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 50%;
+    height: 50%;
+}
+.grid-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+.door {
+    grid-row-start:2;
+    grid-row-end:4 ;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.house {
+    grid-row-start:1 ;
+    grid-row-end:3;
+    grid-column-start:5 ;
+    grid-column-end: 7;
+}
+
+.island{
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+.bedroom {
+    grid-row-start:3 ;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.yellow{
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.beach {
+    grid-row-start:3 ;
+    grid-row-end:4;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+
+
+
+
+
